@@ -8,5 +8,14 @@ body{
 }
 nav{
     padding: 1rem;
-    background-color: black;
+    background-color: #222;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hamburger-menu{
+    height: 50px;
+    width: 50px;
 }
