@@ -33,4 +33,11 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: transform .6, opacity .8, top .6;
+}
+.bar-top{
+    top: 25%;
+}
+.bar-bottom{
+    top: 75%;
 }
