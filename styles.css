@@ -67,7 +67,7 @@ nav{
     right: -50%;
 }
 .navegacion{
-    position: relative;
+    position: absolute;
     top: 20%;
     right: -3%;
 }
