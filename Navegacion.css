@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aquamarine;
+    background-color: rgb(231, 166, 45);
 }
 nav{
     padding: 1rem;
@@ -13,6 +13,10 @@ nav{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+a{
+    color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .hamburger-menu{
@@ -32,7 +36,7 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: transform .6s, opacity .8s, top .6s;
+    transition: transform .7s, opacity .8s, top .6s;
 }
 .bar-top{
     top: 25%;
@@ -67,7 +71,8 @@ nav{
     right: -50%;
 }
 .navegacion{
-    position: absolute;
+    position: relative;
+    list-style: none;
     top: 20%;
     right: -3%;
 }
