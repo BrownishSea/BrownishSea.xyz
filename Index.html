@@ -10,24 +10,38 @@
 </head>
 <body>
     <!--Menu de la barra lateral, solo mover cuando se quede fuera de la pantalla o halla problemas de UX-->
-    <div class="off-screen-menu">
-        <dl class="navegacion">
-            <li>
-                <a href="/html/nuestra-historia.html">Sobre Nosotros</a>
-            </li>
-            <br>
-            <li>
-                <a href="/html/mision-vision-objetivos.html">Nuestros Objetivos</a>
-            </li>
-        </dl>
-    </div>
-    <nav>
-        <div class="hamburger-menu">
-            <div class="ham-bar bar-top"></div>
-            <div class="ham-bar bar-mid"></div>
-            <div class="ham-bar bar-bottom"></div>
+    <div class="barra-lateral">
+        <div class="off-screen-menu">
+            <dl class="navegacion">
+                <li>
+                    <a href="/html/nuestra-historia.html">Sobre Nosotros</a>
+                </li>
+                <br>
+                <li>
+                    <a href="/html/mision-vision-objetivos.html">Nuestros Objetivos</a>
+                </li>
+            </dl>
         </div>
-    </nav>
+        <nav>
+            <div class="hamburger-menu">
+                <div class="ham-bar bar-top"></div>
+                <div class="ham-bar bar-mid"></div>
+                <div class="ham-bar bar-bottom"></div>
+            </div>
+        </nav>
+    </div>
+    <!--Acordiones con la mision y la vision de la empresa-->
+    <div class="contenedor-acordiones">
+        <div class="acordion">
+            <div class="acordion-header">
+                <h2>Mision</h2>
+                <button>+</button>
+            </div>
+            <div class="acordion-body">
+                <p>Buscamos alimentar y servir a nuestros consumidores, siendo una empresa productiva, sumamente dedicada a vender nuestros productos.</p>
+            </div>
+        </div>
+    </div>
 
     <script src="./app.js"></script>
 </body>

@@ -76,3 +76,37 @@ a{
     top: 20%;
     right: -3%;
 }
+
+.contenedor-acordiones{
+    padding: 3rem;
+}
+.acordion-header,
+.acordion-body{
+    padding: 1rem;
+}
+
+.acordion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.acordion-header button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+}
+.acordion-header:hover{
+    background-color: #ccc;
+}
+
+.acordion-body{
+    background-color: white;
+    display: none;
+}
+
+.acordion.active .acordion-body{
+     display: block;
+}
