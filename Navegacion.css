@@ -78,7 +78,10 @@ a{
 }
 
 .contenedor-acordiones{
-    padding: 3rem;
+    position: relative;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-top: 10rem;
 }
 .acordion-header,
 .acordion-body{
@@ -89,9 +92,9 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #eee;
+    background-color: rgb(226, 217, 82);
     cursor: pointer;
-    transition: background-color .3s;
+    transition: background-color .6s;
 }
 .acordion-header button{
     background-color: transparent;
@@ -99,14 +102,20 @@ a{
     font-size: 1.5rem;
 }
 .acordion-header:hover{
-    background-color: #ccc;
+    background-color: rgb(182, 174, 67);
 }
 
 .acordion-body{
-    background-color: white;
+    background-color: rgb(255, 240, 158);
     display: none;
+    font-size: 105%;
+    text-align: center;
 }
 
 .acordion.active .acordion-body{
      display: block;
+}
+
+footer{
+    padding: 25rem;
 }
