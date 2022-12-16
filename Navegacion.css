@@ -10,6 +10,7 @@ nav{
     padding: 1rem;
     background-color: #222;
 
+    justify-content: flex-end;
     display: flex;
     align-items: center;
 }
@@ -27,7 +28,6 @@ a{
     position: relative;
     cursor: pointer;
     padding: 1rem;
-    left: 65rem;
 }
 
 .ham-bar{
